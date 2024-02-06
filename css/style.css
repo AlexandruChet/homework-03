@@ -1,3 +1,9 @@
+header{
+  font-family: 'Roboto';
+}
+body{
+  font-family: 'Roboto';
+}
 :root{
   --button:#2196F3;
   --header-text:#000000;
@@ -9,17 +15,17 @@
 
 }
   
-  header {
+.header {
     background-color: var(--Basement);
     text-align: center;
     color: var(--header-text);
   }
   
-  footer{
+.footer_the_end{
     background-color: var(--cap);
     color: var(--Basement);
   }
-  div{
+.text_button{
     background-color: var(--cap);
     color: var(--Basement);
     text-align: center;
