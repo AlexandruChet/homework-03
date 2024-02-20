@@ -40,9 +40,14 @@ body{
     list-style-type: none;
   }
 
-  .box1{
-    padding: 15px 10px 20px 10px;
-    margin: 30px;
-    border: 2px solid red;
-    background-color: green;
+.container{
+  width: 1170px;
+  height: 1360px;
+  top: 174px;
+  left: 215px;
+  border: 1px;
+  display: flex;
+  justify-content:space-between ;
+  list-style: none;
+  flex-wrap: wrap;
 }
