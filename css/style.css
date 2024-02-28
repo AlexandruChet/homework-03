@@ -50,7 +50,9 @@ body{
     flex-wrap: wrap;
     
   }
-  .container li{width: 370px;
+  .container li{
+  width: 370px;
   height: 480px;
+  margin: 0 auto;
   }
     
