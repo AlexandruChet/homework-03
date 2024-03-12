@@ -8,6 +8,10 @@ header {
 footer {
   font-family: "Roboto";
 }
+.header_ul {
+  display: flex;
+}
+
 
 :root {
   --button: #2196f3;
@@ -18,22 +22,15 @@ footer {
   --Basement: #ffffff;
   --Our-team: #f5f4fa;
 }
-.header_ul {
-  display: flex;
-}
 
-.li_text {
-  color: #2196f3;
-}
 .header_ul li {
   font-family: "Roboto";
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  letter-spacing: 0.48px;
+  line-height: 26px;
   font-size: 14px;
-  line-height: 16.41px;
-  margin-right: 50px;
-  
+  letter-spacing: 0.48px; 
 }
 
 .header {
@@ -48,16 +45,25 @@ footer {
   font-weight: 700;
   letter-spacing: 0.78px;
 }
-.header_nav{
-  margin: 0 auto;
-  display: flex;
-  width: 1170px;
-}
 .header_logo {
+  margin-top: 24px;
   margin-right: 93px;
-  margin-left: 215px;
-  padding-top: 24px;
 }
+.header_text{
+margin-right: 50px;
+}
+
+.header_text_h{
+  margin-top: 24px;
+  color: #2196f3;
+  margin-right: 50px;
+}
+
+.header_li{
+  margin-right: 344px;
+}
+
+
 .box1 {
   text-align: center;
 }
@@ -67,14 +73,11 @@ footer {
 .header_ul{
   display: flex;
 }
-div{
-  margin-right: 8px;
-  color: var(--Basement);
-  text-align: center;
-}
 
-.li_text {
-  color: #2196f3;
+
+.li_text { 
+  
+  margin-top: 24px;
 }
 .header_ul li{
   font-family: "Roboto";
@@ -83,9 +86,11 @@ div{
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.48px;
+
 }
 
 .header {
+  margin: 0 auto;
   display: flex;
   height: 80px;
   background-color: var(--Basement);
@@ -99,16 +104,26 @@ div{
   line-height: normal;
   letter-spacing: 0.78px;
 }
+.header_nav{
+  margin: 0 auto;
+  display: flex;
+  width: 1170px;
+}
+
 .header_logo{
   margin-right: 93px;
 }
 
 .header_text{
+  margin-top: 24px;
   margin-right: 50px;
 }
 .header_li{
+  margin-top: 24px;
   margin-right: 344px;
 }
+
+
 footer {
   background-color: var(--cap);
   color: var(--Basement);
