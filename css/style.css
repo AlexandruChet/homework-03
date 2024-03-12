@@ -18,6 +18,46 @@ footer {
   --Basement: #ffffff;
   --Our-team: #f5f4fa;
 }
+.header_ul {
+  display: flex;
+}
+
+.li_text {
+  color: #2196f3;
+}
+.header_ul li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+  font-size: 14px;
+  line-height: 16.41px;
+  margin-right: 50px;
+  
+}
+
+.header {
+ 
+  height: 80px;
+  background-color: var(--Basement);
+  color: var(--header-text);
+
+  color: #000;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+.header_nav{
+  margin: 0 auto;
+  display: flex;
+  width: 1170px;
+}
+.header_logo {
+  margin-right: 93px;
+  margin-left: 215px;
+  padding-top: 24px;
+}
 .box1 {
   text-align: center;
 }
@@ -26,6 +66,11 @@ footer {
 }
 .header_ul{
   display: flex;
+}
+div{
+  margin-right: 8px;
+  color: var(--Basement);
+  text-align: center;
 }
 
 .li_text {
@@ -64,31 +109,58 @@ footer {
 .header_li{
   margin-right: 344px;
 }
-
-.footer_the_end {
+footer {
   background-color: var(--cap);
   color: var(--Basement);
-  font-size: 26px;
-
-  letter-spacing: 0.78px;
-  width: 1600px;
-  height: 252px;
-
-  padding-left: 20px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.42px;
 }
+
+.text_footer {
+  background-color: #2f303a;
+  width: 400px;
+  height: 21px;
+  margin-left: 215px;
+}
+  .footer_the_end {
+    height: 80px;
+    color: var(--Basement);
+  
+    height: 252px;
+    padding-left: 20px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    line-height: 24px;
+  }
+  
+  .big_text {
+    color: #2196f3;
+    margin-left: 215px;
+    padding-top: 60px;
+  }
+  
+  .text_button {
+    background-color: var(--cap);
+    color: var(--Basement);
+    text-align: center;
+}
+
 .footer_the_end p {
-  color: var(--Features);
-  font-size: 14px;
+  display: flex;
+  color: #757575;
+  background-color: #2f303a;
+  padding-left: 215px;
 }
 
 .big_text {
   color: #2196f3;
+  margin-left: 215px;
+  padding-top: 60px;
+}
+.text_footer {
+  background-color: #2f303a;
+  width: 400px;
+  height: 21px;
+  margin-left: 215px;
 }
 
 .text_button {
